@@ -1,0 +1,11 @@
+LET R0 := 1
+    LET R1 := 256
+
+    LOOP:
+
+IF R1 < R0 END
+LET R0 := R0 * 2
+PRINT R0
+
+JUMP LOOP
+END:
